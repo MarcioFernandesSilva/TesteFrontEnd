@@ -16,7 +16,7 @@ A aplicação consiste em uma única página com uma barra de menu na parte supe
 Para rodar este projeto localmente, siga os seguintes passos:
 
 1. **Clone o repositorio**:
-   git clone <repository-url>
+   git clone (url do repositorio)
 2. **Navegue até o diretório do projeto:**:
    cd TesteFrontEnd
 3. **Instale as dependências**:
