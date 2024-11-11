@@ -1,81 +1,46 @@
-# Vuetify (Default)
+# Projeto Herois Marvel
 
-This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
+Este projeto é uma aplicação front-end desenvolvida utilizando Vue.js e Vuetify. Ele apresenta uma seleção de heróis da Marvel, permitindo que os usuários cliquem no nome de um herói no menu para exibir informações relevantes e uma imagem do herói selecionado.
 
-## ❗️ Important Links
+# Visão Geral do Projeto
 
-- 📄 [Docs](https://vuetifyjs.com/)
-- 🚨 [Issues](https://issues.vuetifyjs.com/)
-- 🏬 [Store](https://store.vuetifyjs.com/)
-- 🎮 [Playground](https://play.vuetifyjs.com/)
-- 💬 [Discord](https://community.vuetifyjs.com)
+A aplicação consiste em uma única página com uma barra de menu na parte superior. O menu inclui os nomes de vários heróis da Marvel, como Hulk, Homem-Aranha, Homem de Ferro, Thor, Gavião Arqueiro, Viúva Negra e Capitão América. Quando um usuário clica no nome de um herói, o conteúdo na área principal do site é atualizado para mostrar uma imagem e uma descrição do herói selecionado.
 
-## 💿 Install
+## Funcionalidades 
+- **Atualização Dinâmica de Conteúdo**: Clicar no nome de um herói no menu atualiza dinamicamente a área principal de conteúdo com a imagem e a descrição do herói.
+- **Design Responsivo**: A aplicação é projetada para ser responsiva e funciona bem em vários tamanhos de tela.
+- **Integração com Vuetify**: Utiliza Vuetify para um design de interface de usuário moderno e consistente.
 
-Set up your project using your preferred package manager. Use the corresponding command to install the dependencies:
+# Como rodar o projeto
 
-| Package Manager                                                | Command        |
-|---------------------------------------------------------------|----------------|
-| [yarn](https://yarnpkg.com/getting-started)                   | `yarn install` |
-| [npm](https://docs.npmjs.com/cli/v7/commands/npm-install)     | `npm install`  |
-| [pnpm](https://pnpm.io/installation)                          | `pnpm install` |
-| [bun](https://bun.sh/#getting-started)                        | `bun install`  |
+Para rodar este projeto localmente, siga os seguintes passos:
 
-After completing the installation, your environment is ready for Vuetify development.
+1. **Clone o repositorio**:
+   git clone (url do repositorio)
+2. **Navegue até o diretório do projeto:**:
+   cd TesteFrontEnd
+3. **Instale as dependências**:
+   npm install
+4. **Execute o servidor de desenvolvimento**:
+   npm run dev
+5. **Abra a aplicação no seu navegador**:
+   Abra o seu navegador e acesse http://localhost:3000 para visualizar a aplicação.
+   
+# Tela do projeto
 
-## ✨ Features
+![image](https://github.com/user-attachments/assets/fe6b1c03-3c9f-489c-8754-85cac2940d98)
 
-- 🖼️ **Optimized Front-End Stack**: Leverage the latest Vue 3 and Vuetify 3 for a modern, reactive UI development experience. [Vue 3](https://v3.vuejs.org/) | [Vuetify 3](https://vuetifyjs.com/en/)
-- 🗃️ **State Management**: Integrated with [Pinia](https://pinia.vuejs.org/), the intuitive, modular state management solution for Vue.
-- 🚦 **Routing and Layouts**: Utilizes Vue Router for SPA navigation and vite-plugin-vue-layouts for organizing Vue file layouts. [Vue Router](https://router.vuejs.org/) | [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
-- ⚡ **Next-Gen Tooling**: Powered by Vite, experience fast cold starts and instant HMR (Hot Module Replacement). [Vite](https://vitejs.dev/)
-- 🧩 **Automated Component Importing**: Streamline your workflow with unplugin-vue-components, automatically importing components as you use them. [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
+# Descrição da tela
 
-These features are curated to provide a seamless development experience from setup to deployment, ensuring that your Vuetify application is both powerful and maintainable.
+A imagem da tela do projeto acima mostra a seção do "Hulk" da aplicação. A barra de menu na parte superior lista vários heróis da Marvel. A opção "Hulk" está destacada, indicando que é o herói atualmente selecionado. A área principal de conteúdo exibe uma imagem do Hulk e uma descrição detalhada sobre a origem e o histórico do personagem.
 
-## 💡 Usage
+# Tecnologias Utilizadas
 
-This section covers how to start the development server and build your project for production.
+- **Vue.js**: Um framework JavaScript progressivo para construção de interfaces de usuário.
+- **Vuetify**: Uma biblioteca de componentes UI para Vue.js com Material Design.
+- **JavaScript**: A linguagem de programação utilizada para a lógica da aplicação.
+- **HTML & CSS**: Para estruturação e estilização da aplicação.
 
-### Starting the Development Server
+# Conclusão
 
-To start the development server with hot-reload, run the following command. The server will be accessible at [http://localhost:3000](http://localhost:3000):
-
-```bash
-yarn dev
-```
-
-(Repeat for npm, pnpm, and bun with respective commands.)
-
-> Add NODE_OPTIONS='--no-warnings' to suppress the JSON import warnings that happen as part of the Vuetify import mapping. If you are on Node [v21.3.0](https://nodejs.org/en/blog/release/v21.3.0) or higher, you can change this to NODE_OPTIONS='--disable-warning=5401'. If you don't mind the warning, you can remove this from your package.json dev script.
-
-### Building for Production
-
-To build your project for production, use:
-
-```bash
-yarn build
-```
-
-(Repeat for npm, pnpm, and bun with respective commands.)
-
-Once the build process is completed, your application will be ready for deployment in a production environment.
-
-## 💪 Support Vuetify Development
-
-This project is built with [Vuetify](https://vuetifyjs.com/en/), a UI Library with a comprehensive collection of Vue components. Vuetify is an MIT licensed Open Source project that has been made possible due to the generous contributions by our [sponsors and backers](https://vuetifyjs.com/introduction/sponsors-and-backers/). If you are interested in supporting this project, please consider:
-
-- [Requesting Enterprise Support](https://support.vuetifyjs.com/)
-- [Sponsoring John on Github](https://github.com/users/johnleider/sponsorship)
-- [Sponsoring Kael on Github](https://github.com/users/kaelwd/sponsorship)
-- [Supporting the team on Open Collective](https://opencollective.com/vuetify)
-- [Becoming a sponsor on Patreon](https://www.patreon.com/vuetify)
-- [Becoming a subscriber on Tidelift](https://tidelift.com/subscription/npm/vuetify)
-- [Making a one-time donation with Paypal](https://paypal.me/vuetify)
-
-## 📑 License
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2016-present Vuetify, LLC
-# TesteFrontEnd
-O projeto para o teste técnico para a vaga estágiario de desenvolvimento fronte-end foi feito em Vue.js utlizando Vuetify para criação de interfaces de usuário responsivas e atrativas
+Este projeto demonstra a habilidade de criar uma aplicação front-end dinâmica e interativa utilizando Vue.js e Vuetify. Ele destaca o uso de práticas modernas de desenvolvimento web e princípios de design responsivo. A aplicação é fácil de navegar e fornece uma maneira visualmente atraente de aprender sobre vários heróis da Marvel.
