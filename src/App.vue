@@ -6,7 +6,6 @@
       <Header @info="getNameHero"></Header>
       <!-- Componente para o Body -->
       <!-- Utilizando prop para passar o objeto que contem as informações do heroi obtido através do Emit acima -->
-      <!-- E o objeto selectedHero está padronizado com as informações do Hulk justamente por ser o primeiro heroi selecionado ao abrir a pagina -->
       <Body :selectedHero="selectedHero"></Body>
     </v-main>
   </v-app>

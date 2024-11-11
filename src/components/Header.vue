@@ -22,11 +22,6 @@
                     <v-col v-for="(hero,index) in heroes" :key="index" class="d-flex justify-space-evenly h-100">
                         <v-btn variant="text" @click="enviar(hero)" class="w-xs-100 w-sm-100 w-md-75" style="height: 65px;" :class="{activeTab:activeHero.name===hero.name}">{{ hero.name }}</v-btn>
                     </v-col>
-                    <!-- v-for = laço de repetição mencionado acima
-                    key = chave unica, funciona da mesma forma que um id para servir como referencia para o indice do array em questão
-                    variant = uma variante de modelo do v-btn no Vuetify
-                    @click = evento onde é acionado o metodo no qual vai utilizar o emit para enviar o heroi selecionado para o App.vue
-                    :class = uma forma de adicionar classes condicionais, neste caso acima utilizada para atribuir propriedades css para o elemento do menu selecionado -->
                 </v-row>
             </v-responsive>
         </v-container>
