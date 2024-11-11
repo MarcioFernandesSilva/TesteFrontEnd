@@ -77,3 +77,5 @@ This project is built with [Vuetify](https://vuetifyjs.com/en/), a UI Library wi
 [MIT](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2016-present Vuetify, LLC
+# TesteFrontEnd
+O projeto para o teste técnico para a vaga estágiario de desenvolvimento fronte-end foi feito em Vue.js utlizando Vuetify para criação de interfaces de usuário responsivas e atrativas
